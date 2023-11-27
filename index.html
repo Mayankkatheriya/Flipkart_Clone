@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="icon" href="./Assests/Flipkart-Logo-removebg-preview-300x300.png">
+    <title>Flipkart</title>
+  </head>
+  <body>
+    <!--*------------------header------------------->
+    <header>
+      <nav>
+        <i class="fa-solid fa-bars" id="menu" style="color: #ffffff;"></i>
+        <div class="logo">
+          <img src="./Assests/flipkart.png" alt="logo" />
+          <p class="logo-text">
+            <span class="explore">Explore</span>
+            <span class="plus-text">Plus </span
+            ><img class="plus" src="./Assests/plus-brand-bc165b.svg" alt="" />
+          </p>
+        </div>
+        <div class="searchbar">
+          <form action="">
+            <input
+              type="search"
+              id="search"
+              placeholder="Search for products, brands and more"
+            />
+            <button class="searchBtn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <button id="login">Login</button>
+        </div>
+        <ul class="list" type="none">
+          <li>Become a Seller</li>
+          <li class="more">More <i class="material-icons">expand_more</i></li>
+          <li><i class="material-icons">shopping_cart</i> Cart</li>
+        </ul>
+        <div class="icons">
+          <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+          <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+        </div>
+      </nav>
+    </header>
+    <!--* -----------------nav-2---------------- -->
+    <section class="nav">
+      <div class="Items">
+        <span class="secItem"
+          >Electronics <i class="material-icons">expand_more</i></span
+        ><span class="secItem"
+          >TVs &amp; Appliances <i class="material-icons">expand_more</i></span
+        ><span class="secItem"
+          >Men <i class="material-icons">expand_more</i></span
+        ><span class="secItem"
+          >Women <i class="material-icons">expand_more</i></span
+        ><span class="secItem"
+          >Baby &amp; Kids <i class="material-icons">expand_more</i></span
+        ><span class="secItem"
+          >Home &amp; Furniture <i class="material-icons">expand_more</i></span
+        ><span class="secItem"
+          >Sports, Books &amp; More
+          <i class="material-icons">expand_more</i></span
+        ><a class="secItem" href="">Flights</a
+        ><a class="secItem" href="">Offer Zone</a>
+      </div>
+    </section>
+    <!--* -----------------------main--------------------------- -->
+    <main>
+      <!-- ---------back to op button------------- -->
+      <a href="#" id="backToTop"><i class="material-icons">expand_less</i> Back to Top</a>
+      <!--* -----------------aside-------------- -->
+      <section class="aside">
+        <i class="fa-solid fa-x" style="color: #212121;" id="close-aside"></i>
+        <div class="data-card">
+          <img
+            src="https://rukminim2.flixcart.com/fk-p-flap/400/400/image/7df6817a0fd9c93e.png?q=50"
+            alt=""
+            class="data-image"
+          />
+          <hr />
+          <h1>Data Card</h1>
+          <span class="dataSale">Sale Is Live From ₹1999</span>
+        </div>
+
+        <div class="filters-list">
+          <p class="filterHeading">Filters</p>
+          <hr />
+          <div class="categories">
+            <p class="label">CATEGORIES</p>
+            <span><i class="material-icons">expand_more</i> Computers</span>
+            <span
+              ><i class="material-icons">expand_more</i> Laptop
+              Accessories</span
+            >
+            <span>Storage Devices</span>
+          </div>
+          <hr />
+          <div class="priceRange">
+            <p class="label">PRICE</p>
+            <div class="range">
+              <div class="range-slider"></div>
+              <div class="range-input">
+                <input
+                  type="range"
+                  class="min"
+                  min="0"
+                  max="800"
+                  value="0"
+                  step="1"
+                />
+                <input
+                  type="range"
+                  class="max"
+                  min="0"
+                  max="800"
+                  value="800"
+                  step="1"
+                />
+              </div>
+              <div class="range-price">
+                <div class="minInput">
+                  <label for="min">Min</label>
+                  <input type="number" class="min" name="min" value="0" min="0" max="800"/>
+                </div>
+                <div class="maxInput">
+                  <label for="max">Max</label>
+                  <input type="number" name="max" class="max" value="800" min="0" max="800"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <!--*---------------discount-section--------------->
+          <div class="discountsList">
+            <div class="discounts discountsHeading">
+              <p class="label">DISCOUNT</p>
+              <i class="material-icons toggleArrow">expand_more</i>
+            </div>
+            <div class="discounts">
+              <label for=""
+                ><input type="radio" value="50" name="discount" id="" /> ₹50 & more
+              </label>
+            </div>
+            <div class="discounts">
+              <label for=""
+                ><input type="radio" value="40" name="discount" id="" /> ₹40 & more
+              </label>
+            </div>
+            <div class="discounts">
+              <label for=""
+                ><input type="radio" value="30" name="discount" id="" /> ₹30 & more
+              </label>
+            </div>
+            <div class="discounts">
+              <label for=""
+                ><input type="radio" value="20" name="discount" id="" /> ₹20 & more
+              </label>
+            </div>
+            <div class="discounts border-bottom">
+              <label for=""
+                ><input type="radio" value="10" name="discount" id="" /> ₹10 or
+                more</label
+              >
+            </div>
+          </div>
+          <hr />
+          <!--* ------------------f-assured filter------------------ -->
+          <div class="fAssuredCheckbox">
+            <input
+              type="checkbox"
+              value=""
+              name="fassured"
+              id="fassured"
+              value="fassured"
+            />
+            <label for="fassured"
+              ><img
+                src="./Assests/251-2512713_best-offer-best-offer-icon-png.png"
+                alt=""
+            /></label>
+          </div>
+          <!--*------------------one day delivery filter------------------ -->
+          <div class="deliveryCheckbox">
+            <input
+              type="checkbox"
+              name="delivery"
+              id="delivery"
+              value="delivery"
+            />
+            <label for="delivery">Delivery in 1 Day</label>
+          </div>
+          <hr />
+          <div class="typeList toggleHeight">
+            <div class="types typeHeading">
+              <p class="label">TYPE</p>
+              <i class="material-icons toggleArrow">expand_more</i>
+            </div>
+          </div>
+          <hr />
+          <!--* ----------------offer-list filter--------------- -->
+          <div class="offerList toggleHeight">
+            <div class="offers offerHeading">
+              <p class="label">OFFERS</p>
+              <i class="material-icons toggleArrow">expand_more</i>
+            </div>
+            <div class="offers">
+              <input type="checkbox" name="noCost" id="noCost" />
+              <label for="noCost">No Cost EMI</label>
+            </div>
+            <div class="offers">
+              <input
+                type="checkbox"
+                name="specialPrice"
+                id="specialPrice"
+                disabled
+              />
+              <label for="specialPrice">Special Price</label>
+            </div>
+            <div class="offers">
+              <input type="checkbox" name="" id="" disabled />
+              <label for="" class="disabled">Buy More, Save More</label>
+            </div>
+          </div>
+          <hr />
+          <div class="brandList toggleHeight">
+            <div class="brands brandHeading">
+              <p class="label">BRAND</p>
+              <i class="material-icons toggleArrow">expand_more</i>
+            </div>
+          </div>
+          <hr />
+          <!--*---------------rating-section--------------->
+          <div class="ratingList toggleHeight">
+            <div class="cRatings cRatingHeading">
+              <p class="label">CUSTOMER RATINGS</p>
+              <i class="material-icons .toggleArrow">expand_more</i>
+            </div>
+            <div class="cRatings">
+              <input
+                type="radio"
+                name="rating"
+                id="4andabove"
+                value="4"
+              />
+              <label for="4andabove"
+                >4 &nbsp;★&nbsp; &
+                above</label
+              >
+            </div>
+            <div class="cRatings">
+              <input
+                type="radio"
+                name="rating"
+                id="3andabove"
+                value="3"
+              />
+              <label for="3andabove"
+                >3 &nbsp; ★ &nbsp; &
+                above</label
+              >
+            </div>
+            <div class="cRatings">
+              <input
+                type="radio"
+                name="rating"
+                id="2andabove"
+                value="2"
+              />
+              <label for="2andabove"
+                >2 &nbsp; ★ &nbsp; &
+                above</label
+              >
+            </div>
+            <div class="cRatings">
+              <input
+                type="radio"
+                name="rating"
+                id="1andabove"
+                value="1"
+              />
+              <label for="1andabove"
+                >1 &nbsp; ★ &nbsp; &
+                above</label
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--* -------------------main-content-------------- -->
+      <section class="content">
+        <div class="top-details">
+          <div class="path">
+            <div class="path-item">
+              <a href="" class="path-name">Home</a>
+              <i class="material-icons">expand_more</i>
+            </div>
+            <div class="path-item">
+              <a class="path-name" href="">Computers</a>
+              <i class="material-icons">expand_more</i>
+            </div>
+            <div class="path-item">
+              <a class="path-name" href="">Laptop Accessories</a>
+              <i class="material-icons">expand_more</i>
+            </div>
+            <div class="path-item">
+              <a class="path-name" href="">Storage Devices</a>
+            </div>
+          </div>
+          <div class="category">
+            <a class="category-name" href="">Laptop Accessories</a><br />
+          </div>
+          <div class="subcategory">
+            <h1 class="subCatName">Storage Device</h1>
+            <span class="productsCount"
+              >(Showing 1 – 20 products of 20 products)</span
+            >
+          </div>
+          <!-- ---------------sort-options-------------------- -->
+          <div class="sortOptions">
+            <span class="sortTitle">Sort By</span>
+            <span class="sort-item popularity" id="">Popularity</span>
+            <span class="sort-item low-to-high" id=""
+              >Price -- Low to High</span
+            >
+            <span class="sort-item high-to-low" id=""
+              >Price -- High to Low</span
+            >
+          </div>
+        </div>
+
+        <div class="product-list" id="productList">
+          <!--* Products will be added here -->
+        </div>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d191351939.js"
+    crossorigin="anonymous"
+  ></script>
+  <script type="module" src="data.js"></script>
+  <script type="module" src="script.js"></script>
+</html>
